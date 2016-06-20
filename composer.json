@@ -1,0 +1,27 @@
+{
+  "name": "slaxframework/twig-extension",
+  "description": "Slax Framework Twig Extension Package",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/slaxframework/twig-extension/issues",
+    "source": "https://github.com/slaxframework/twig-extension"
+  },
+  "authors": [
+    {
+      "name": "Eray AYDIN",
+      "email": "erayaydin2016@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.4",
+    "slim/slim": "2.4.*",
+    "slim/views":"0.1.2",
+    "twig/twig": "1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SlaxFramework\\TwigExtension\\": ""
+    }
+  },
+  "minimum-stability": "dev"
+}
